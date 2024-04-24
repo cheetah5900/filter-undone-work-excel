@@ -2,16 +2,16 @@
 
 ## Background
 
-In that time, I need to follow daily progress from vendor and the normal way that I need to do will be shown below
+### What is it for ?
+This web application helped me repeat repetitive tasks by using VBA excel to send each step to Line's vendor group through Line's API automatically. This can shorten my spent time from 10 hourse a day to just 20 minutes. I did the entire system myself. 
+### Why do this ? 
+I was responsible to follow daily progresses from 10 vendors which contain 3,000 tasks, each vendor owned about 300 works in an Excel file by using each step below to finish everyday's task 
 
-1. There are 3,000 works with 10 vendor in Excel file
-2. 1 vendor owned about 300 works
-3. I pick first work of vendor A then see current step. (assume now is step 5 of 11)
-4. I ask vendor A that "What is current step ? is step 5 done ?"
-5. Record the answer to Excel file.
-6. Repeat 2,999 works left.
-
-I solve all these problem by this VBA Excel. it can filter undone and lated works then send message to LINE app automaticcally.
+1. I pick the first work the vendor 'A', then look at current status. (assume now is on a step 5 of 11)
+2. I ask vendor 'A' if the step 5 is done.
+3. Update the finished date for step 5 to Excel file.
+4. Repeat 299 works left of this vendor 'A'
+5. Repeat another 9 vendors in the same exact process.
 
 ## Requirement.
 
